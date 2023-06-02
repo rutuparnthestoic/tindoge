@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+    padding-top: 2.5rem;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+p{
+   color: #8f8f8f;
+}
+
+.downbtn{
+    margin: 5% 3% 5% 0;
+}
+.container-fluid{ /*Even though this is a pre-defined class in bootstrap, we still can add our personalization onto it */
+    padding: 3% 15%;
+}
+
+
+.feat{
+    text-align: center;
+    padding: 5%;
+}
+
+.head-ico{
+    color: #ef8172;
+}
+
+.head-ico:hover{
+    color: #ff4c68;
+}
+
+.head-feat{
+    padding-top: 10%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.para-feat{
+    color: #8f8f8f;
+}
+.rotateImg{
+    transform: rotate(25deg);
+    margin-left: 2rem;
+    width: 60%;
+    position : absolute;
+    z-index: 0;
+    right: 27%;
+}
+
+.tindoge{
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.navbar{
+    padding-bottom: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+#features{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#title{
+    background-color: #ff4c6f;
+    padding-bottom: 8rem;
+}
+
+#testimonials{
+    
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+#pricing{
+    padding : 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-name{
+    margin-top: 20px;
+}
+
+.carousel-item{
+    padding : 10% 15%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-para{
+    padding-top: 4rem;
+    color: white;
+}
+
+.downbtn2{
+    margin: 3% 1% 3% 0;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Media query breakpoint*/
+@media (max-width: 1028px) { 
+    #title{
+        text-align: center;
+    }
+    
+    .rotateImg{
+        position: static;
+        transform: rotate(0);
+        padding-top: 3rem;
+    }
+
+    .card{
+        margin-bottom: 2rem;
+    }
+    
+}
